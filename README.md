@@ -1,20 +1,26 @@
 # Clothing Classifier
-## Softmax Regression
 
 This project implements Softmax Regression to classify images from the Fashion MNIST dataset. The softmax regression model uses stochastic gradient descent (SGD) to minimize the L2-regularized cross-entropy loss and classify images into one of 10 categories, such as shoes, t-shirts, and dresses. The project involves training the model, monitoring the loss during training, evaluating accuracy on a test set, and visualizing the learned weight vectors.
 
 Each training and test example is assigned to one of the following labels:
 
-* Class 0: T-shirt/top  
-* Class 1: Trouser  
-* Class 2: Pullover  
-* Class 3: Dress  
-* Class 4: Coat  
-* Class 5: Sandal  
-* Class 6: Shirt  
-* Class 7: Sneaker  
-* Class 8: Bag  
-* Class 9: Ankle boot
+* **Class 0**: T-shirt/top  
+* **Class 1**: Trouser  
+* **Class 2**: Pullover  
+* **Class 3**: Dress  
+* **Class 4**: Coat  
+* **Class 5**: Sandal  
+* **Class 6**: Shirt  
+* **Class 7**: Sneaker  
+* **Class 8**: Bag  
+* **Class 9**: Ankle boot
+
+## Dataset
+This project uses the Fashion MNIST dataset which can be found here:  
+* https://s3.amazonaws.com/jrwprojects/fashion_mnist_train_images.npy
+* https://s3.amazonaws.com/jrwprojects/fashion_mnist_train_labels.npy
+* https://s3.amazonaws.com/jrwprojects/fashion_mnist_test_images.npy
+* https://s3.amazonaws.com/jrwprojects/fashion_mnist_test_labels.npy
 
 ## Accuracy
 
