@@ -1,13 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-# Given a vector x of (scalar) inputs and associated vector y of the target labels, and given
-# degree d of the polynomial, train a polynomial regression model and return the optimal weight vector.
-def trainPolynomialRegressor (x, y, d):
-    X = np.vander(x, d+1, increasing=True).T  #Vandermonde matrix is Transpose of what we want
-    w = np.linalg.solve(X @ X.T, X @ y)
-    return w
-
 # Given training and testing data, learning rate epsilon, batch size, and regularization strength alpha,
 # conduct stochastic gradient descent (SGD) to optimize the weight matrix Wtilde (785x10).
 # Then return Wtilde.
